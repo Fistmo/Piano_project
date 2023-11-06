@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="preferExternal"
+6    android:versionCode="1"
+7    android:versionName="1.0.2" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="22"
+10-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+12
+13    <supports-screens
+13-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-163
+14        android:anyDensity="true"
+14-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:135-160
+15        android:largeScreens="true"
+15-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:78-105
+16        android:normalScreens="true"
+16-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-77
+17        android:smallScreens="true"
+17-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:21-48
+18        android:xlargeScreens="true" />
+18-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:106-134
+19
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-66
+20-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:20-63
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+21-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-72
+21-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:20-69
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-79
+22-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:20-76
+23
+24    <uses-feature
+24-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-88
+25        android:name="android.hardware.bluetooth_le"
+25-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-61
+26        android:required="true" />
+26-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:62-85
+27    <uses-feature android:glEsVersion="0x00030000" />
+27-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-52
+27-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-49
+28    <uses-feature
+28-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-91
+29        android:name="android.hardware.vulkan.version"
+29-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-63
+30        android:required="false" />
+30-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:64-88
+31    <uses-feature
+31-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:3-88
+32        android:name="android.hardware.touchscreen"
+32-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:17-60
+33        android:required="false" />
+33-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:37:61-85
+34    <uses-feature
+34-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:3-99
+35        android:name="android.hardware.touchscreen.multitouch"
+35-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:17-71
+36        android:required="false" />
+36-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:38:72-96
+37    <uses-feature
+37-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:3-108
+38        android:name="android.hardware.touchscreen.multitouch.distinct"
+38-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:17-80
+39        android:required="false" />
+39-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:39:81-105
+40
+41    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+41-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:40:3-75
+41-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:40:20-72
+42
+43    <application
+43-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-30:17
+44        android:extractNativeLibs="true"
+44-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:123-155
+45        android:icon="@mipmap/app_icon"
+45-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:58-89
+46        android:label="@string/app_name"
+46-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:90-122
+47        android:theme="@style/UnityThemeSelector" >
+47-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:16-57
+48        <activity
+48-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:5-13:16
+49            android:name="com.unity3d.player.UnityPlayerActivity"
+49-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+50            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+50-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:172-353
+51            android:hardwareAccelerated="false"
+51-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:389-424
+52            android:label="@string/app_name"
+52-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:69-101
+53            android:launchMode="singleTask"
+53-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:140-171
+54            android:resizeableActivity="false"
+54-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:354-388
+55            android:screenOrientation="landscape" >
+55-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:102-139
+56            <intent-filter>
+56-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:7-10:23
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-61
+57-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-58
+58                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+58-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-83
+58-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-80
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:9-69
+60-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:19-66
+61            </intent-filter>
+62
+63            <meta-data
+63-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-82
+64                android:name="unityplayer.UnityActivity"
+64-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-58
+65                android:value="true" />
+65-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:59-79
+66            <meta-data
+66-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-78
+67                android:name="android.notch_support"
+67-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-54
+68                android:value="true" />
+68-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+69        </activity>
+70        <!-- Activity added by the BT library -->
+71        <activity
+71-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-16:16
+72            android:name="com.techtweaking.bluetoothcontroller.ForwardingActivity"
+72-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-85
+73            android:background="#00000000" >
+73-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:86-116
+74        </activity>
+75
+76        <meta-data
+76-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-69
+77            android:name="unity.splash-mode"
+77-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-48
+78            android:value="0" />
+78-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:49-66
+79        <meta-data
+79-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-74
+80            android:name="unity.splash-enable"
+80-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-50
+81            android:value="True" />
+81-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:51-71
+82        <meta-data
+82-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-78
+83            android:name="unity.launch-fullscreen"
+83-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-54
+84            android:value="True" />
+84-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:55-75
+85        <meta-data
+85-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-84
+86            android:name="unity.allow-resizable-window"
+86-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-59
+87            android:value="False" />
+87-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:60-81
+88        <meta-data
+88-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-81
+89            android:name="notch.config"
+89-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-43
+90            android:value="portrait|landscape" />
+90-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:44-78
+91        <meta-data
+91-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-84
+92            android:name="unity.auto-report-fully-drawn"
+92-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-60
+93            android:value="true" />
+93-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:61-81
+94
+95        <receiver
+95-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-113
+96            android:name="com.unity.androidnotifications.UnityNotificationManager"
+96-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:15-85
+97            android:exported="false" />
+97-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:86-110
+98        <receiver
+98-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-28:16
+99            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+99-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:15-99
+100            android:enabled="false"
+100-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:100-123
+101            android:exported="false" >
+101-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:124-148
+102            <intent-filter>
+102-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-27:23
+103                <action android:name="android.intent.action.BOOT_COMPLETED" />
+103-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:9-71
+103-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-68
+104            </intent-filter>
+105        </receiver>
+106
+107        <meta-data
+107-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:5-99
+108            android:name="com.unity.androidnotifications.exact_scheduling"
+108-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:16-78
+109            android:value="0" />
+109-->C:\Users\bucha\Unity\Teaching-3\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:79-96
+110    </application>
+111
+112</manifest>

@@ -1,0 +1,81 @@
+{
+  "name": "",
+  "maxBlock": 21,
+  "BPM": 81,
+  "offset": 0,
+  "notes": [
+    {
+      "LPB": 4,
+      "num": 10,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 12,
+      "block": 1,
+      "type": 1,
+      "notes": []
+    },
+          {
+      "LPB": 4,
+      "num": 14,
+      "block": 2,
+      "type": 1,
+      "notes": []
+    },
+          {
+      "LPB": 4,
+      "num": 16,
+      "block": 3,
+      "type": 1,
+      "notes": []
+    },
+          {
+      "LPB": 4,
+      "num": 18,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+          {
+      "LPB": 4,
+      "num": 20,
+      "block": 1,
+      "type": 1,
+      "notes": []
+    },
+          {
+      "LPB": 4,
+      "num": 22,
+      "block": 2,
+      "type": 1,
+      "notes": []
+    },
+          {
+      "LPB": 4,
+      "num": 24,
+      "block": 3,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 26,
+      "block": 0,
+      "type": 1,
+      "notes": []
+    },
+    {
+      "LPB": 4,
+      "num": 28,
+      "block": 1,
+      "type": 1,
+      "notes": []
+    }
+
+
+
+  ]
+}
